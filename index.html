@@ -4,22 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Birthday Count Down</title>
-    <meta
-      http-equiv="refresh"
-      content="0; url=Birthday%20count%20down(%E7%94%9F%E6%97%A5%E5%80%92%E6%95%B8%E6%85%B6%E7%A5%9D%E7%B6%B2%E9%A0%81).html"
-    />
-    <script>
-      window.location.replace(
-        "Birthday%20count%20down(%E7%94%9F%E6%97%A5%E5%80%92%E6%95%B8%E6%85%B6%E7%A5%9D%E7%B6%B2%E9%A0%81).html"
-      );
-    </script>
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+        background: linear-gradient(160deg, #160d2f, #3a1458 55%, #7a1a5c);
+        color: #f5f3ff;
+      }
+      .card {
+        text-align: center;
+        padding: 28px;
+        border-radius: 16px;
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+      }
+      .links {
+        display: flex;
+        gap: 12px;
+        justify-content: center;
+        margin-top: 16px;
+        flex-wrap: wrap;
+      }
+      a {
+        color: #160d2f;
+        background: #ffcf6e;
+        text-decoration: none;
+        font-weight: 700;
+        border-radius: 999px;
+        padding: 10px 16px;
+      }
+    </style>
   </head>
   <body>
-    <p>
-      Redirecting...
-      <a href="Birthday%20count%20down(%E7%94%9F%E6%97%A5%E5%80%92%E6%95%B8%E6%85%B6%E7%A5%9D%E7%B6%B2%E9%A0%81).html"
-        >Click here if you are not redirected.</a
-      >
-    </p>
+    <div class="card">
+      <h1>🎂 Birthday Countdown</h1>
+      <p>Select a language / 選擇語言</p>
+      <div class="links">
+        <a href="Birthday%20count%20down(English%20version).html">English</a>
+        <a href="Birthday%20count%20down(%E7%94%9F%E6%97%A5%E5%80%92%E6%95%B8%E6%85%B6%E7%A5%9D%E7%B6%B2%E9%A0%81).html">繁體中文</a>
+      </div>
+    </div>
   </body>
 </html>
