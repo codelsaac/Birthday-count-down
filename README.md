@@ -32,3 +32,13 @@ This project shows a live countdown to the next birthday date, then switches int
 3. (Optional) Use query parameters to preview/share specific settings.
 
 No build step or external backend is required.
+
+## Host on GitHub Pages
+
+1. Push this repository to GitHub.
+2. Go to **Settings → Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**.
+4. Select your main branch and `/ (root)` folder, then click **Save**.
+5. Open the generated `https://<username>.github.io/<repository>/` URL.
+
+`index.html` is included and redirects to the existing app file, so the site opens correctly on GitHub Pages.
