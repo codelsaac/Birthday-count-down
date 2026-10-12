@@ -22,12 +22,13 @@ This project shows a live countdown to the next birthday date, then switches int
 
 ## Project Structure
 
-- `/home/runner/work/Birthday-count-down/Birthday-count-down/Birthday count down(生日倒數慶祝網頁).html` – main app file (HTML/CSS/JS in one file)
+- `/home/runner/work/Birthday-count-down/Birthday-count-down/Birthday count down(English version).html` – English app version (HTML/CSS/JS in one file)
+- `/home/runner/work/Birthday-count-down/Birthday-count-down/Birthday count down(生日倒數慶祝網頁).html` – Traditional Chinese app version (HTML/CSS/JS in one file)
 - `/home/runner/work/Birthday-count-down/Birthday-count-down/README.md` – project documentation
 
 ## How to Run
 
-1. Open `Birthday count down(生日倒數慶祝網頁).html` in a modern browser.
+1. Open `index.html` in a modern browser and choose your language.
 2. Click **⚙️** to set the name and birthday date.
 3. (Optional) Use query parameters to preview/share specific settings.
 
@@ -41,4 +42,4 @@ No build step or external backend is required.
 4. Select your main branch and `/ (root)` folder, then click **Save**.
 5. Open the generated `https://<username>.github.io/<repository>/` URL.
 
-`index.html` is included and redirects to the existing app file, so the site opens correctly on GitHub Pages.
+`index.html` is included as a language selector page, so visitors can open either the English or Traditional Chinese version on GitHub Pages.
